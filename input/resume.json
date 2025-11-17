@@ -1,0 +1,316 @@
+{
+       
+    "candidate_name": "Pranjal Goyal",
+    "email": "pranjal7852@gmail.com",
+    "phone": "+49 152 346 845 63",
+    "portfolio_url": "www.pranjalgoyal.dev",
+    "linkedin_url": "linkedin.com/in/pranjal",
+    "github_url": "github.com/Pranjal7852",
+    "location": "Munich, Germany",
+    "languages": [
+        "English (Fluent)",
+        "German (A2)",
+        "Hindi (Native)"
+    ],
+    "professional_summary": "Full Stack Engineer specializing in TypeScript, Python,React, Node.js, and cloud platforms (AWS & GCP). Skilled in CI/CD, monitoring, and automation, with a focus on building scalable, high-performance applications. Passionate about system optimization, seamless deployments, and innovation in cloud-native development.",
+    "years_of_experience": 2,
+        "skills": {
+        "frontend": [
+            "ReactJS",
+            "ReduxJS",
+            "NextJS",
+            "HTML5",
+            "CSS/SASS",
+            "Tailwind CSS",
+            "ThreeJS",
+            "Framer Motion",
+            "GSAP"
+        ],
+        "backend": [
+            "Node.js",
+            "ExpressJS",
+            "FastAPI",
+            "GraphQL",
+            "REST",
+            "Web Sockets"
+        ],
+        "languages": [
+            "JavaScript (ES6)",
+            "TypeScript",
+            "Python",
+            "Shell Scripting"
+        ],
+        "databases": [
+            "PostgreSQL",
+            "MongoDB",
+            "Redis",
+            "Prisma ORM",
+            "Hasura"
+        ],
+        "cloud_devops": [
+            "AWS (EC2, S3, Codebuild, Lambda)",
+            "GCP",
+            "Azure",
+            "Firebase",
+            "CI/CD (Github Actions)",
+            "Docker"
+        ],
+        "tools": [
+            "Git",
+            "NPM",
+            "Vite",
+            "OAuth",
+            "JWT",
+            "OpenTelemetry"
+        ]
+    },
+        "education": [
+        {
+            "degree": "Bachelor of Technology in Electronics and Communication Engineering",
+            "institution": "National Institute of Technology, Hamirpur",
+            "duration": "May 2019 – May 2023",
+            "gpa": "7.61/10",
+            "location": "Hamirpur, India"
+        }
+    ],
+        "certifications": [
+        {
+            "name": "Google Summer of Code - Open Source Contribution with 52°North Gmbh",
+            "issuer": "Google"
+        },
+        {
+            "name": "Server-side Development with NodeJS, Express and MongoDB",
+            "issuer": "The Hong Kong University of Science and Technology"
+        },
+        {
+            "name": "REST API Expert",
+            "issuer": "Postman"
+        },
+        {
+            "name": "MongoDB - Good Parts of Non-Relational Database",
+            "issuer": "MongoDB"
+        },
+        {
+            "name": "Entrepreneurship and Innovation",
+            "issuer": "Strascheg Center for Entrepreneurship gGmbH"
+        }
+    ],
+        
+        "experiences": [
+        {
+            "title": "Software Engineer",
+            "company": "BMW Group x DPS, UnternehmerTUM",
+            "duration": "Feb 2025 - Present",
+            "location": "Munich, Germany",
+            "responsibilities": [
+                "Collaborated with stakeholders from BMW Group to develop a market-ready MVP for sustainable product innovation",
+                "Designed and implemented CrewAI-based multi-agent systems to autonomously analyse plastic materials",
+                "Designed structured agent workflows with MCP and chain-of-thought validation, improving modularity and semantic accuracy",
+                "Optimized runtime by combining vector similarity search (Weaviate) with PostgreSQL-based structured database, achieving >40% reduction in processing latency",
+                "Built interactive frontend to visualize AI-generated product ideas and brand-material alignments in real time"
+            ],
+            "technologies": [
+                "CrewAI",
+                "Weaviate",
+                "PostgreSQL",
+                "MCP",
+                "LLM"
+            ]
+        },
+        {
+            "title": "Full Stack Engineer",
+            "company": "The Homework App",
+            "duration": "May 2023 - January 2025",
+            "location": "Bengaluru, India",
+            "responsibilities": [
+                "Architected and developed MathAI, an educational application using Next.js and GraphQL, delivering personalised learning experiences to 10,000+ students",
+                "Engineered assessment components leveraging LLM frameworks (LangChain and Groq API), increasing assessment accuracy by 35%",
+                "Led migration from admin-secret to RBAC authentication system, implementing refresh and session tokens for enhanced security",
+                "Delivered critical features under tight one-week deadlines, impacting user satisfaction metrics by 28%",
+                "Implemented OpenTelemetry for application monitoring, reducing production issue response times by 40%"
+            ],
+            "technologies": [
+                "Next.js",
+                "GraphQL",
+                "LangChain",
+                "Groq API",
+                "RBAC",
+                "OpenTelemetry"
+            ]
+        },
+        {
+            "title": "Backend Engineer (Contract)",
+            "company": "Circlone",
+            "duration": "Aug 2022 - Jan 2023",
+            "location": "London, United Kingdom (Remote)",
+            "responsibilities": [
+                "Designed and implemented scalable backend systems from scratch using Node.js, achieving 99.9% uptime using PM2 process manager",
+                "Created serverless API architectures using Azure, reducing operational costs by 35%",
+                "Designed database schema using PostgreSQL with Prisma ORM, optimizing data retrieval performance by 45%",
+                "Utilized React Query for efficient frontend data fetching, decreasing load times by 30%"
+            ],
+            "technologies": [
+                "Node.js",
+                "Azure",
+                "PostgreSQL",
+                "Prisma ORM",
+                "React Query",
+                "PM2"
+            ]
+        },
+        {
+            "title": "Front-end Engineer (Intern)",
+            "company": "Shipsy",
+            "duration": "May 2022 - July 2022",
+            "location": "Gurugram, India",
+            "responsibilities": [
+                "Developed cross-browser, responsive application features using ReactJS, ThreeJS, and GSAP, improving user engagement metrics by 25%",
+                "Implemented Stripe API payment processing using React Hooks, increasing payment conversion rates by 15%",
+                "Built real-time chat functionality with WebSockets, enhancing customer satisfaction scores by 32%",
+                "Improved Core Web Vitals metrics (LCP, FID, CLS) to meet Google's recommended thresholds, enhancing user experience and boosting SEO rankings by 15 positions"
+            ],
+            "technologies": [
+                "ReactJS",
+                "ThreeJS",
+                "GSAP",
+                "Stripe API",
+                "WebSockets"
+            ]
+        }
+    ],
+        "projects": [
+        {
+            "name": "Nimbus NITH",
+            "description": "Web Application to send out 100,000 emails efficiently during fest days",
+            "technologies": [
+                "Amazon SES",
+                "Twilio",
+                "Framer Motion",
+                "GSAP",
+                "ThreeJS",
+                "PostgreSQL",
+                "Prisma ORM",
+                "React Query",
+                "Node.js",
+                "Express"
+            ],
+            "highlights": [
+                "Sent 100,000 emails efficiently using Amazon Simple Email Service",
+                "Utilized Framer Motion and GSAP for smooth UI animations",
+                "Implemented RESTful APIs using Node.js and Express"
+            ],
+            "link": "Source Code"
+        },
+        {
+            "name": "Coding Classroom",
+            "description": "Full-stack application facilitating real-time code collaboration",
+            "technologies": [
+                "Socket.IO",
+                "React.js",
+                "Node.js",
+                "Express",
+                "Codemirror",
+                "UUID"
+            ],
+            "highlights": [
+                "Real-time code editor with room-based collaboration",
+                "Implemented Socket.IO for real-time editor interaction",
+                "Custom rooms for enhanced user experience and privacy"
+            ],
+            "link": "Source Code"
+        },
+        {
+            "name": "SourcingXpress",
+            "description": "Job platform with real-time profile tracking",
+            "technologies": [
+                "WebSockets",
+                "React Query",
+                "MongoDB",
+                "Redis",
+                "NextAuth",
+                "Firebase",
+                "TailwindCSS"
+            ],
+            "highlights": [
+                "Real-time profile tracking with WebSockets",
+                "Scalable MongoDB and Redis-backed architecture",
+                "Secure authentication with NextAuth and Firebase"
+            ],
+            "link": "Live Deployed"
+        }
+    ],
+        "achievements": [
+        {
+            "title": "Runner-Up in GitHub SPEC Hackathon 2022",
+            "description": ""
+        },
+        {
+            "title": "Postman Student Expert",
+            "description": "RESTful API testing and development"
+        },
+        {
+            "title": "Hackertoberfest Contributor",
+            "description": "Active contributor in 2021, 2022, and 2023"
+        },
+        {
+            "title": "SPEC MLH Hackathon - Rank 3",
+            "description": "Secured rank 3 out of 50+ teams"
+        },
+        {
+            "title": "Research Paper Co-author",
+            "description": "Co-authored research paper in ICICACS-2024 on machine learning applications in parking systems"
+        },
+        {
+            "title": "Web Secretary",
+            "description": "Led development of college annual website on MERN stack"
+        }
+    ],
+        "publications": [
+        "ParkSmart: Leveraging Neural Networks for Predictive Parking in Smart Cities - IEEE 2nd International Conference",
+        "Seamless Auth System Migration with Supertokens",
+        "Meta Pixel - A Guide to User Tracking",
+        "Why and What is SHELL?",
+        "How to Ensure Your Websites Ranks on Google",
+        "Know your user like never before using Navigator API",
+        "AIFAQ - Best Practices for Front-end of an Agentic Agent"
+    ],
+        "volunteering": [
+        {
+            "title": "Web Secretary",
+            "company": "Pixonoids",
+            "duration": "January 2021 - May 2023",
+            "location": "Hamirpur, India",
+            "responsibilities": [
+                "Contributing to the design and development of the annual technical and cultural website",
+                "Collaborated with UX designers and deployment teams"
+            ],
+            "technologies": [
+                "MERN Stack"
+            ]
+        },
+        {
+            "title": "Vice President of Art & Cultural Activities",
+            "company": "Hill'ffair NIT Hamirpur",
+            "duration": "Aug 2021 - May 2023",
+            "location": "Hamirpur, India",
+            "responsibilities": [
+                "Spearheaded execution of Hill'ffair 2022 - North India's premier Cultural Festival",
+                "Led team of 50 students, orchestrating pro shows for 10,000 attendees",
+                "Contributed to media and marketing strategies"
+            ],
+            "technologies": []
+        },
+        {
+            "title": "Open Source Contributor",
+            "company": "LFX Foundation & 52°North Spatial Information Research GmbH",
+            "duration": "",
+            "location": "",
+            "responsibilities": [
+                "Angular Migration of Kommonitor Client"
+            ],
+            "technologies": [
+                "Angular"
+            ]
+        }
+    ]
+}

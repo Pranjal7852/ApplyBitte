@@ -1,0 +1,125 @@
+{
+    "job_description": "About the job
+We've hit Product-Market Fit. Our AI platform meinGPT already serves 10k+ users across 250+ companies, and now we're scaling. Your challenge: Help us grow to 100k users.
+Our mission
+
+
+Our mission with meinGPT is to bring AI to the core of the SME sector. We're building the central, all-in-one platform that makes powerful AI accessible to everyone. Our core challenge: Crafting a UX so intuitive so that anyone can master AI and build the technical foundation to handle millions of secure LLM calls per month. Your work will define how thousands of people interact with AI daily.
+Our engineering challenges for 2026:
+
+
+
+Synchronize and index terabytes of client data and handle their permissions
+
+Process millions of LLM calls per month and our users expect high reliability
+
+Spawn thousands of code sandboxes per day which must run in a scalable and secure way
+
+Build the base infrastructure for our custom integrations team so that they can integrate new systems within few hours
+
+
+Tasks
+Your Mission
+
+
+Build and ship high-quality, full-stack features using TypeScript and React, with a strong focus on creating a seamless and intuitive user experience.
+
+Design and implement robust backend systems capable of handling a massive scale of data and millions of API requests.
+
+Take ownership of features from concept to deployment, ensuring they are reliable, secure, and performant.
+
+Help mentor junior colleagues and improve our codebase through constructive, thorough code reviews.
+
+
+Why GenAI full stack engineering is full of exciting challenges:
+
+
+
+Context Engineering: An AI agent is only as good as its context. The core challenge is assembling the perfect context in real-time from multiple, diverse data sources to make the agent powerful and accurate.
+
+Scale: We process terabytes of sensitive customer data - while fulfilling all requirements about performance, correctness, reliability, and security.
+
+UI/UX: The challenge is creating intuitive interfaces for new interaction patterns like real-time streaming, live progress, and multi-modal inputs (text, voice, image).
+
+
+Requirements
+What We Are Looking For
+
+
+
+3+ years of professional experience software engineering and our core technologies (React, TypeScript & PostgreSQL) and the surrounding ecosystem (Docker, CI/CD)
+
+Strong sense of product ownership: You think beyond your own code and care about the big picture: how the product feels to users and how it succeeds as a whole.
+
+You are a quick learner and really enjoy the fast pace and high-growth environment that comes with a scaling product.
+
+
+Benefits
+What's In It For You
+
+
+Learn how to build a scalable AI platform, make critical product decisions in a high-growth startup, and integrate the cutting-edge AI technology
+
+Directly shape the product and its architecture during our critical 1M → 10M ARR growth phase. Your work will be used by thousands of users from day one.
+
+Enjoy flexible working hours with the option of 2 days/week in the home office.
+
+Further perks like the access to 10,
+    000+ sports facilities with the EGYM Wellpass, a €1,
+    000 annual learning budget and the Deutschlandticket.
+
+
+How We Work
+
+
+We have a development process built for speed, quality, and focus. Some insights:
+
+We use AI tools (Cursor, Claude Code etc.) daily to be faster and smarter, but you remain in full control and responsible for your code.
+
+We minimize meetings and even make dailies optional to protect your deep work time.
+
+Healthy Ambition: We have huge goals but are committed to a healthy work environment - and make sure that our people are feeling well.
+
+Fast Delivery, Close to the User: We ship fast, stay close to our customers, and let their direct feedback drive our next steps.
+
+Security & Reliability First: As an enterprise platform, the security of customer data and the reliability of our systems are our highest priorities.
+
+
+Our stack
+
+
+
+Core stack: React, TypeScript, tRPC, PostgreSQL, Kubernetes, Docker
+
+AI & Dev Tools: Cursor, Claude Code, CodeRabbit, Linear, Notion
+
+AI Services integrated into the Platform: OpenAI, Gemini, Claude, Mistral, Perplexity, Flux, Gladia (audio transcription)
+
+
+Next Steps
+
+
+Application: Submit your profile through our short form.
+
+Intro Call (30 min): A short chat about your motivation and our mutual expectations.
+
+Technical Interview (Remote,
+    90 min): A live coding session to showcase your skills.
+
+Founders Interview (On-site,
+    90 min): Meet the founders at our office and discuss your experience and ambitions.
+
+Offer: If it's a great fit for both sides, we'll make you an offer.
+
+
+Please apply directly on our website - other applications will not be considered.
+
+
+
+Desired Skills and Experience
+React TypeScript Software Engineering CI/CD Docker Kubernetes Full Stack Development
+
+",
+    "company": "SelectCode GmbH"
+}
+

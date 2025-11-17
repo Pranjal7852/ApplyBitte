@@ -2,7 +2,8 @@ import os
 from dotenv import load_dotenv
 from graph import build_graph
 from state import AppState, ExperienceItem, Profile
-
+import json
+from util.json_parser import load_job_json
 load_dotenv()
 
 # Check if Ollama is accessible
@@ -23,12 +24,6 @@ def check_ollama():
         print("And pull a model with: ollama pull gpt-oss:20b")
         return False
 
-def example_profile():
-    e1 = ExperienceItem(company="BMW", role="AI Engineer", dates="2024-2025", highlights=["Built agentic AI systems for plastic recycling", "Worked with LLMs and CrewAI"])
-    p = Profile(name="Pranjal Goel", title="Full Stack Engineer", experience=[e1], skills={"languages": ["TypeScript", "Python"], "ai": ["LLMs"]}, achievements=["GSoC contributor"], education=["TUM program"])
-    return p
-
-
 def main():
     print("Starting the application...")
     
@@ -43,10 +38,28 @@ def main():
         app = graph.compile()
         print("Graph compiled successfully!")
 
+        # Load resume.json and parse into Profile object
+        resume_path = os.path.join(os.path.dirname(__file__), "input", "resume.json")
+        with open(resume_path, "r", encoding="utf-8") as f:
+            resume_data = json.load(f)
+        
+        profile = Profile(**resume_data)
+        
+        # Load job.json and extract job description and company
+        # The load_job_json function handles unescaped newlines automatically
+        job_path = os.path.join(os.path.dirname(__file__), "input", "job.json")
+        job_data = load_job_json(job_path)
+        
+        job_description = job_data.get("job_description", "")
+        company = job_data.get("company", None)
+        
+        if not job_description:
+            raise ValueError("job_description is required in job.json")
+        
         state = AppState(
-            profile=example_profile(),
-            job_description="We are hiring a Full Stack Engineer to work on ML infra and front-end with TypeScript and React. Strong experience in LLMs and production systems is a plus.",
-            company="BMW",
+            profile=profile,
+            job_description=job_description,
+            company=company,
         )
         print(f"Initial state created with company: {state.company}")
 

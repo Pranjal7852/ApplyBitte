@@ -45,9 +45,22 @@ def matcher_node(state):
         return {"matching_points": []}
     import json
     try:
-        matches = json.loads(out)
+        parsed = json.loads(out)
+        # Handle both cases: LLM might return a list directly or a dict with "matching_points" key
+        if isinstance(parsed, dict) and "matching_points" in parsed:
+            matches = parsed["matching_points"]
+        elif isinstance(parsed, list):
+            matches = parsed
+        else:
+            # Unexpected format, try to extract as list
+            matches = list(parsed.values())[0] if isinstance(parsed, dict) and parsed else []
     except Exception:
         # fallback: parse lines
         lines = [l.strip('- ').strip() for l in out.splitlines() if l.strip()]
         matches = lines
+    
+    # Ensure matches is always a list
+    if not isinstance(matches, list):
+        matches = []
+    
     return {"matching_points": matches}
