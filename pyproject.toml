@@ -1,0 +1,13 @@
+[project]
+name = "applybitte"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "ddgs>=9.9.2",
+    "langchain-community>=0.4.1",
+    "langchain-ollama>=1.0.0",
+    "langgraph>=1.0.4",
+    "pydantic>=2.12.5",
+    "python-dotenv>=1.2.1",
+]
